@@ -30,7 +30,7 @@ public class leapmonth{
         // converting  month name to month number
         for (int i = 0; i < month_names.length; i++) {
             if (month_names[i].equalsIgnoreCase(month_name)) {
-                month_number = i + 1; // Months are 1-based (January is 1, February is 2, etc.)
+                month_number = i + 1; 
                 break;
             }
         }
